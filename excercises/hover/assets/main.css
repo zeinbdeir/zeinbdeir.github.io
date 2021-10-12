@@ -1,0 +1,23 @@
+body { 
+	background-color: lightpink;
+	}
+
+	.example {
+		font-size: 85px;
+		font-family: monospace;
+
+
+	}
+
+	.example:hover {
+		background-color: greenyellow;
+		cursor: pointer;
+		font-style: italic;
+	}
+	span {font-family: monospace;
+		font-size: 50px;}
+
+	div {font-size: 20px;}
+
+
+
