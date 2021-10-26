@@ -1,0 +1,57 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+
+/* Control the left side */
+.left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  left: 0;
+  font-family: monospace;
+  background-color: darkblue;
+  text-decoration-color: white;
+}
+
+/* Control the right side */
+.right {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding:  5%;
+  width: 70%;
+  right: 0;
+  font-family: monospace;
+  background-color: darkgrey;
+  padding-top: 150;
+  padding-bottom: 100;
+}
+
+img{
+  max-width: 200px;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  padding: 5px;
+}
+
+.about{
+  color: white;
+}
+
+a{
+  color: white;
+}

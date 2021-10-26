@@ -1,0 +1,104 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: scroll;
+  padding-top: 20px;
+}
+
+
+/* Control the left side */
+.left {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  left: 0;
+  font-family: monospace;
+  background-color: darkblue;
+  text-decoration-color: white;
+  overflow: scroll;
+}
+
+/* Control the right side */
+.right {
+width: 70%;
+  right: 0;
+  font-family: monospace;
+  background-color: darkgrey;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  overflow:  scroll;
+}
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img{
+  width: 150px;
+  padding-top: 250;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 5px;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ffe0ec;
+  }
+
+/* If the browser window is shorter than 650px, the background will turn green */
+
+
+@media (max-height: 650px) {
+  body {
+    background-color: darkgreen;
+  }
+
+/* The body's font-size is smaller by default */
+body {
+  font-size: 16px;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
+}
