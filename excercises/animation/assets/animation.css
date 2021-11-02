@@ -9,16 +9,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 500px;
 }
 
-.item {
-  animation-duration: 2s;
-  animation-name: spinType;
+svg {
+  align-items: center;
+  fill: blue;
+  height:  600px;
+  animation: spinType 2s ease-out infinite;
 }
-}
-
-animation-delay: 2s;
 
 
 @keyframes spinType {
