@@ -1,0 +1,34 @@
+
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  animation-duration: 2s;
+  animation-name: spinType;
+}
+}
+
+animation-delay: 2s;
+
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
