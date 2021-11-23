@@ -1,0 +1,184 @@
+@font-face {
+	font-family: HeaderFont;
+	src: url("DrukWideBold.ttf");
+}
+
+@font-face {
+	font-family: BodyFont;
+	src: url("Lausanne-Regular.otf");
+}
+.content{
+	display: block;
+	position: relative;
+}
+
+body{
+	display: block;
+	position: relative;
+	background-color: #ffffff;
+}
+
+
+h1{
+	font-family: HeaderFont;
+	text-align: left;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+hr.line{
+	height: 2px ;
+	background-color: black;
+
+}
+
+h2{
+	font-family: HeaderFont;
+	font-size: 15pt;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+h3{
+	font-family: BodyFont;
+	font-size: 10pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+h4{
+	font-family: BodyFont;
+	font-size: 10pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: right;
+	margin-right: 30px;
+}
+
+.flex{
+	padding-top: 5px;
+	height: 3vh;
+	width: 60vw;
+}
+
+h5{
+	font-family: HeaderFont;
+	text-align: left;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+h6{
+	font-family: BodyFont;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+.secondLink{
+	color: black;
+}
+
+.circle{
+	width: 30px;
+	position: absolute;
+	height: 30px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+.circle2{
+	width: 30px;
+	position: absolute;
+	height: 30px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+.circle3{
+	width: 30px;
+	position: absolute;
+	height: 30px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+ul{
+	font-family: BodyFont;
+	font-size: 8pt;
+}
+
+.header{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	background-color: #ffffff;
+	z-index: 100;
+}
+
+
+.grid{ 
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: flex;
+	background-color: #E5E5E5;
+	top: 20vh;
+	gap: 0;
+}
+
+.color {
+	background-color: green;
+}
+
+.grid div{
+	border: 2px solid black;
+	gap:  0;
+}
+
+.textContainer{
+	background-color: #ffffff;
+	width: 40vw;
+	height: 80vh;
+	display: relative;
+	position: sticky;
+	top: 20vh;
+	scroll-behavior: auto;
+}
+
+.imageContainer{
+	background-color: #E5E5E5;
+	height: 100%;
+	width: 60vw;
+	top: 20vh;
+}
+
+
+img {
+	height: 150px;
+	width: auto;
+	-webkit-filter: drop-shadow(10px 10px 8px #A9A9A9);
+}
+
+.display {
+	display: relative;
+	margin: 2vw;
+	width: 50vw;
+	height: 70vw;
+	object-fit: cover;
+}
+
+a {
+	background-color: dimgrey;
+}
+
+
+
+
+
+
+
+
+

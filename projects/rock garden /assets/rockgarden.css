@@ -1,0 +1,71 @@
+@font-face {
+	font-family: HeaderFont;
+	src: url("DrukWideBold.ttf");
+}
+
+@font-face {
+	font-family: BodyFont;
+	src: url("Lausanne-Regular.otf");
+}
+
+h1{
+	font-family: HeaderFont;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+hr.line{
+	height: 2px ;
+	background-color: black;
+
+}
+
+h2{
+	font-family: HeaderFont;
+	font-size: 15pt;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+h3{
+	font-family: HeaderFont;
+	font-size: 13pt;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	text-align: center;
+}
+
+.grid{
+	margin-top: 10px;
+	display: grid;
+	background-color: #E5E5E5;
+	gap: 0px;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: minimax(100px);
+	justify-content: space-evenly;
+
+}
+
+.grid div{
+	height: 250px;
+	width: auto;
+	border: 2px solid black;
+}
+
+img {
+	height: 150px;
+	width: auto;
+	-webkit-filter: drop-shadow(10px 10px 8px #A9A9A9);
+}
+
+
+
+
+
+
+
+
