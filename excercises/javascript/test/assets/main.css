@@ -1,0 +1,14 @@
+.shoe {
+	width: 100vw;
+	height: 100vw;
+}
+
+img {
+	position: absolute;
+	width: 100px;
+	height: auto;
+}
+
+.container {
+	position: absolute;
+}
